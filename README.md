@@ -5,7 +5,8 @@ Motivation & Goals:
   
   <summary> Definitions </summary> 
 
-  <p> DL (Deep-Learning):
+  <p> 
+DL (Deep-Learning):
 
 DNN (Deep Neural Networks):
 
@@ -13,7 +14,14 @@ CNN (Convultional Neural Network):
 
 FNN (Feedforward Neural Network):
 
+RNN (Recurrent Neural Network): 
+Type of artificial neural network which uses sequential data or time series data. Commonly used for ordinal or temporal problems, such as language translation, natural language processing, speech recognition, and image captioning; they are incorporated into popular applications such as Siri, voice search, and Google Translate.
+
 NLP (Natural Language Processing):
+
+LSTM (Long Short-Term Memory):
+
+
   </p>
   <br>
 </details>
@@ -136,12 +144,12 @@ The goal of the code is to train a neural network using TensorFlow/Keras to clas
 <br>
 
 <details>
-  <h2 align="center">  </h2>
+  <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator </h2>
   
-  <summary>   </summary> 
+  <summary> LSTM NLP RNN Shakespeare Play Generator  </summary> 
 
   <p>
-
+The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. The trained model is designed to learn the patterns and structures inherent in the language of Shakespeare. Subsequently, the model can generate new text based on a user-provided starting string. This demonstrates the use of recurrent neural networks for creative text generation, showcasing the network's ability to capture and reproduce the linguistic style of a specific author or domain. The code engages users by allowing them to input a seed string and witness the model's generation of coherent and contextually relevant text in the style of Shakespeare.
   </p>
   <br>
 </details>
