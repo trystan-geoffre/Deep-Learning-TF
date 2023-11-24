@@ -6,20 +6,21 @@ Motivation & Goals:
   <summary> Definitions </summary> 
 
   <p> 
-DL (Deep-Learning):
+    
+**DL (Deep-Learning):**
 
-** DNN (Deep Neural Networks): **
+**DNN (Deep Neural Networks):**
 
-** CNN (Convultional Neural Network): **
+**CNN (Convultional Neural Network):**
 
-** FNN (Feedforward Neural Network): **
+**FNN (Feedforward Neural Network):**
 
-** RNN (Recurrent Neural Network): **
-Type of artificial neural network which uses sequential data or time series data. Commonly used for ordinal or temporal problems, such as language translation, natural language processing, speech recognition, and image captioning; they are incorporated into popular applications such as Siri, voice search, and Google Translate.
+**RNN (Recurrent Neural Network):**
+Type of artificial neural network which uses sequential data or time series data. Commonly used for ordinal or temporal problems, such as language translation, natural language processing, speech recognition, and image captioning; used by Siri, voice search, and Google Translate.
 
-** NLP (Natural Language Processing): **
+**NLP (Natural Language Processing):**
 
-** LSTM (Long Short-Term Memory): **
+**LSTM (Long Short-Term Memory):**
 
 
   </p>
