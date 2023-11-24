@@ -15,7 +15,7 @@ Motivation & Goals:
 
 **RNN (Recurrent Neural Network):**
 Type of artificial neural network which uses sequential data or time series data. 
-Commonly used for ordinal or temporal problems: language translation, NLP, speech recognition, image captioning
+Commonly used for ordinal or temporal problems: language translation, NLP, speech recognition, image captioning.
 Used by Siri, voice search, and Google Translate.
 
 **NLP (Natural Language Processing):**
@@ -62,6 +62,7 @@ Running and Saving the Model (if __name__ == '__main__':):
 Calls solution_model() to create and train the model.
 Saves the trained model as "mymodel.h5".
 Overall, the script demonstrates the process of preparing a dataset, creating a CNN model, training the model, and saving it for future use. The goal is to classify satellite images into "damage" and "no_damage" categories.
+validation of +0.92
 </p>
 <br>
 </details>
@@ -144,15 +145,30 @@ The goal of the code is to train a neural network using TensorFlow/Keras to clas
 <br>
 
 <details>
-  <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator </h2>
+  <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator & User interaction </h2>
   
-  <summary> LSTM NLP RNN Shakespeare Play Generator  </summary> 
+  <summary> LSTM NLP RNN Shakespeare Play Generator & User interaction </summary> 
 
   <p>
 The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. The trained model is designed to learn the patterns and structures inherent in the language of Shakespeare. Subsequently, the model can generate new text based on a user-provided starting string. This demonstrates the use of recurrent neural networks for creative text generation, showcasing the network's ability to capture and reproduce the linguistic style of a specific author or domain. The code engages users by allowing them to input a seed string and witness the model's generation of coherent and contextually relevant text in the style of Shakespeare.
   </p>
   <br>
 </details>
+
+<br>
+
+<details>
+  <h2 align="center"> Pre Trained Model Cat VS Dog Classifier </h2>
+  
+  <summary> Pre Trained Model Cat VS Dog Classifier </summary> 
+
+  <p>
+    The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task.
+accuracy of +0.986 on validation data
+  </p>
+  <br>
+</details>
+
 
 <br>
 
@@ -166,3 +182,32 @@ The purpose of this code is to train a character-level LSTM neural network on a 
   </p>
   <br>
 </details>
+
+
+<br>
+
+<details>
+  <h2 align="center">  </h2>
+  
+  <summary> </summary> 
+
+  <p>
+
+  </p>
+  <br>
+</details>
+
+
+<br>
+
+<details>
+  <h2 align="center">  </h2>
+  
+  <summary> </summary> 
+
+  <p>
+
+  </p>
+  <br>
+</details>
+
