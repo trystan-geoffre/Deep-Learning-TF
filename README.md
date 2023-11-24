@@ -4,8 +4,6 @@ Motivation & Goals:
   <h2 align="center"> Definitions </h2>
   
   <summary> Definitions </summary> 
-
-  <p> 
     
 **DL (Deep-Learning):**
 
@@ -23,8 +21,6 @@ Used by Siri, voice search, and Google Translate.
 
 **LSTM (Long Short-Term Memory):**
 
-
-  </p>
   <br>
 </details>
 
