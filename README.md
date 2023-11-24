@@ -20,6 +20,12 @@ NLP (Natural Language Processing):
 
   <br>
 
+  ---
+
+<h2>Explaination of the different projects</h2>
+  
+<br>
+  
 <details>
   <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
   
