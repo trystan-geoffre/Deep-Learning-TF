@@ -83,9 +83,9 @@ This code demonstrates the use of data augmentation to artificially increase the
 <br>
 
 <details>
-  <h2 align="center"> DNN Iris flower Prediction </h2>
+  <h2 align="center"> DNN Iris flower Prediction & User Interaction</h2>
   
-  <summary> DNN Iris flower Prediction </summary> 
+  <summary> DNN Iris flower Prediction & User Interaction </summary> 
 
   <p>
 Use the trained classifier to make predictions based on the user's input and print the predicted class and its probability.
@@ -98,9 +98,22 @@ In summary, this code defines, trains, evaluates, and uses a Deep Neural Network
 <br>
 
 <details>
-  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
+  <h2 align="center"> Feedforward NN MNIST Prediction & User interaction </h2>
   
-  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
+  <summary> Feedforward NN MNIST Prediction & User interaction </summary> 
+
+  <p>
+The goal of the code is to train a neural network using TensorFlow/Keras to classify images from the Fashion MNIST dataset. The dataset consists of grayscale images of 10 different types of clothing items. After training the model, the code provides user interaction to select a specific image from the test set, predict its class, and display the image along with the expected and predicted labels.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center">  </h2>
+  
+  <summary>   </summary> 
 
   <p>
 
@@ -111,22 +124,9 @@ In summary, this code defines, trains, evaluates, and uses a Deep Neural Network
 <br>
 
 <details>
-  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
+  <h2 align="center">  </h2>
   
-  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
-
-  <p>
-
-  </p>
-  <br>
-</details>
-
-<br>
-
-<details>
-  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
-  
-  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
+  <summary> </summary> 
 
   <p>
 
