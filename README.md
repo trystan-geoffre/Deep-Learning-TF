@@ -1,5 +1,24 @@
 Motivation & Goals:
 
+<details>
+  <h2 align="center"> Definitions </h2>
+  
+  <summary> Definitions </summary> 
+
+  <p> DL (Deep-Learning):
+
+DNN (Deep Neural Networks):
+
+CNN (Convultional Neural Network):
+
+FNN (Feedforward Neural Network):
+
+NLP (Natural Language Processing):
+  </p>
+  <br>
+</details>
+
+  <br>
 
 <details>
   <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
@@ -98,9 +117,9 @@ In summary, this code defines, trains, evaluates, and uses a Deep Neural Network
 <br>
 
 <details>
-  <h2 align="center"> Feedforward NN MNIST Prediction & User interaction </h2>
+  <h2 align="center"> FNN MNIST Prediction & User interaction </h2>
   
-  <summary> Feedforward NN MNIST Prediction & User interaction </summary> 
+  <summary> FNN MNIST Prediction & User interaction </summary> 
 
   <p>
 The goal of the code is to train a neural network using TensorFlow/Keras to classify images from the Fashion MNIST dataset. The dataset consists of grayscale images of 10 different types of clothing items. After training the model, the code provides user interaction to select a specific image from the test set, predict its class, and display the image along with the expected and predicted labels.
