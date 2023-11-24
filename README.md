@@ -22,7 +22,7 @@ NLP (Natural Language Processing):
 
   ---
 
-<h2>Explaination of the different projects</h2>
+<h2 align='center'>Explaination of the different projects</h2>
   
 <br>
   
