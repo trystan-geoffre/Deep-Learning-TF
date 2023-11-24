@@ -70,6 +70,47 @@ This script aims to create a simple text classification model for sarcasm detect
 <br>
 
 <details>
+  <h2 align="center"> CNN Cifar10 </h2>
+  
+  <summary> CNN Cifar10 </summary> 
+
+  <p>
+This code demonstrates the use of data augmentation to artificially increase the diversity of the training dataset, enhancing the model's ability to generalize to unseen data. The CNN model is designed to classify images from the CIFAR-10 dataset into one of the ten specified classes. The training process involves both the original and augmented images.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> DNN Iris flower Prediction </h2>
+  
+  <summary> DNN Iris flower Prediction </summary> 
+
+  <p>
+Use the trained classifier to make predictions based on the user's input and print the predicted class and its probability.
+
+In summary, this code defines, trains, evaluates, and uses a Deep Neural Network classifier to predict the species of an Iris flower based on user-inputted features. The dataset used is the famous Iris dataset containing features such as sepal length, sepal width, petal length, and petal width. The user can interactively input feature values for prediction.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
+  
+  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
+
+  <p>
+
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
   <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
   
   <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
