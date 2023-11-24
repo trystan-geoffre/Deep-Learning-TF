@@ -1,3 +1,5 @@
+Motivation & Goals:
+
 
 <details>
   <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
@@ -28,5 +30,65 @@ Calls solution_model() to create and train the model.
 Saves the trained model as "mymodel.h5".
 Overall, the script demonstrates the process of preparing a dataset, creating a CNN model, training the model, and saving it for future use. The goal is to classify satellite images into "damage" and "no_damage" categories.
 </p>
-<details>
+<br>
+</details>
 
+<br>
+
+<details>
+  <h2 align="center">👹 NLP Sarcasm Classifier 👹</h2>
+  
+  <summary>👹 NLP Sarcasm Classifier 👹</summary> 
+  <p>
+    This Python script builds and trains a classifier for a sarcasm dataset using TensorFlow and Keras. Here's an explanation of each part:
+
+Import Libraries:
+Import necessary libraries including json for working with JSON files, tensorflow for building and training the model, numpy for numerical operations, and relevant modules from tensorflow.keras for text preprocessing.
+Load and Preprocess Data:
+Download the sarcasm dataset from a given URL and load it from the JSON file (sarcasm.json).
+Extract sentences and labels from the dataset.
+Tokenization and Padding:
+Tokenize the text data and pad sequences to ensure uniform length for model input.
+Model Architecture:
+Build a sequential model using Keras.
+The model consists of an embedding layer for word embeddings, a dropout layer to prevent overfitting, a global average pooling layer for dimensionality reduction, and a dense layer with a sigmoid activation function for binary classification.
+Early Stopping:
+Implement early stopping with a patience of 5 epochs to monitor validation loss and restore the best weights when there is no improvement.
+Compile and Train:
+Compile the model using the Adam optimizer and binary cross-entropy loss.
+Train the model on the training data with validation data for 50 epochs, using the early stopping callback to prevent overfitting.
+Save the Model:
+Save the trained model to a file named "mymodel.h5".
+Main Execution:
+Check if the script is being run as the main program (__name__ == '__main__').
+If yes, execute the solution_model function and save the resulting model.
+This script aims to create a simple text classification model for sarcasm detection using a neural network architecture with embedding layers, dropout for regularization, and early stopping to prevent overfitting.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
+  
+  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
+
+  <p>
+
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
+  
+  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
+
+  <p>
+
+  </p>
+  <br>
+</details>
