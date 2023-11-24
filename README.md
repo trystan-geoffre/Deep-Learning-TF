@@ -14,7 +14,8 @@ Motivation & Goals:
 **FNN (Feedforward Neural Network):**
 
 **RNN (Recurrent Neural Network):**
-Type of artificial neural network which uses sequential data or time series data. Commonly used for ordinal or temporal problems: language translation, NLP, speech recognition, image captioning
+Type of artificial neural network which uses sequential data or time series data. 
+Commonly used for ordinal or temporal problems: language translation, NLP, speech recognition, image captioning
 Used by Siri, voice search, and Google Translate.
 
 **NLP (Natural Language Processing):**
