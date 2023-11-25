@@ -288,7 +288,7 @@ This project aims to develop a binary image classification model using a pre-tra
 
 <br>
 
-<p href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Callbacks-MNIST.py">**Custom Callbacks MNIST**</p>
+<p href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Callbacks-MNIST.py"> Custom Callbacks MNIST </p>
 The code employs three callbacks during the training process. The ModelCheckpoint Callback saves model weights at specified intervals, the LearningRateScheduler Callback dynamically adjusts the learning rate, and the CustomCallback Callback stops training if the accuracy surpasses a predefined threshold of 90%. These callbacks enhance training control and efficiency, ensuring periodic weight saving, adaptive learning rates, and the ability to halt training based on a specific criterion.
 <br>
   Custom Layers ResNet
