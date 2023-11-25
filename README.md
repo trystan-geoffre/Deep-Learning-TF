@@ -158,9 +158,9 @@ The purpose of this code is to train a character-level LSTM neural network on a 
 <br>
 
 <details>
-  <h2 align="center"> Pre Trained Model Cat VS Dog Classifier </h2>
+  <h2 align="center"> Pre-Trained Model Cat VS Dog Classifier </h2>
   
-  <summary> Pre Trained Model Cat VS Dog Classifier </summary> 
+  <summary> Pre-Trained Model Cat VS Dog Classifier </summary> 
 
   <p>
     The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task.
@@ -173,12 +173,12 @@ accuracy of +0.986 on validation data
 <br>
 
 <details>
-  <h2 align="center">  </h2>
+  <h2 align="center"> Reinforcement Learning: Q Learning </h2>
   
-  <summary> </summary> 
+  <summary> Reinforcement Learning: Q Learning </summary> 
 
   <p>
-
+The goal of the code is to implement a Q-learning algorithm to train an agent in the FrozenLake environment, a classic problem in reinforcement learning. The code initializes a Q-table to store the learned values for state-action pairs and iteratively updates these values based on the agent's interactions with the environment. The training process involves a balance between exploration and exploitation, where the agent chooses actions with a certain probability of exploration. The Q-values are updated using the Q-learning formula, taking into account the rewards received and the maximum Q-value for the next state. The training loop runs for a specified number of episodes, and the final learned Q-values are printed along with the average reward obtained during training. The ultimate objective is for the agent to learn an optimal policy for navigating the FrozenLake environment and achieving the highest cumulative reward.
   </p>
   <br>
 </details>
