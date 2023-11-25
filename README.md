@@ -195,8 +195,8 @@ The goal of the code is to implement a Q-learning algorithm to train an agent in
     Custom Callbacks MNIST
 The code employs three callbacks during the training process. The ModelCheckpoint Callback saves model weights at specified intervals, the LearningRateScheduler Callback dynamically adjusts the learning rate, and the CustomCallback Callback stops training if the accuracy surpasses a predefined threshold of 90%. These callbacks enhance training control and efficiency, ensuring periodic weight saving, adaptive learning rates, and the ability to halt training based on a specific criterion.
 
-  Custom Layers MNIST
-The custom layer, named Dense, represents a fully connected layer in a neural network. It handles the initialization of learnable weights and biases, offering flexibility in constructing a specialized model (MyModel) for digit classification. This custom layer enhances adaptability and customization in defining neural network architectures.
+  Custom Layers ResNet
+The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResNet-like model for MNIST digit classification. They enhance expressiveness by incorporating convolutional blocks and facilitating the creation of residual blocks, enabling efficient feature learning and mitigating challenges in training deep neural networks.
 
   Custom Model Fit MNIST
 The custom model fit in this code provides a specialized training loop for a convolutional neural network (CNN) on the MNIST dataset. It allows fine-grained control over training and evaluation, incorporating specific metrics like sparse categorical accuracy and utilizing an Adam optimizer with sparse categorical cross-entropy loss. This customization enhances adaptability and transparency in the training process.
@@ -212,12 +212,12 @@ The custom training loop in the code offers greater flexibility and control over
 <br>
 
 <details>
-  <h2 align="center">  </h2>
+  <h2 align="center"> Tranfer-Learning Skin Cancer </h2>
   
-  <summary> </summary> 
+  <summary> Tranfer-Learning Skin Cancer </summary> 
 
   <p>
-
+This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. The goal is to achieve high accuracy in distinguishing between two classes in a dataset of images. The approach involves implementing data augmentation techniques for improved model generalization and training. The model is evaluated on both validation and test datasets, with performance metrics such as accuracy, precision, recall, and the ROC curve used to assess its effectiveness. The use of transfer learning with a powerful pre-trained neural network enables efficient feature extraction and classification for image recognition tasks. The project leverages TensorFlow and related libraries for seamless model development, training, and evaluation.
   </p>
   <br>
 </details>
