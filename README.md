@@ -19,22 +19,19 @@ Before diving into the projects, you'll find a comprehensive list of abbreviatio
   
   <summary> Definitions </summary> 
 <p>    
-**DL (Deep-Learning):**
+**DL (Deep-Learning):** A subset of machine learning that involves training artificial neural networks on vast amounts of data to make intelligent decisions without explicit programming.
 
-**DNN (Deep Neural Networks):**
+**DNN (Deep Neural Networks):** A class of neural networks with multiple layers (deep architecture) between the input and output layers, enabling the model to learn complex hierarchical representations.
 
-**CNN (Convultional Neural Network):**
+**CNN (Convultional Neural Network):** A type of deep neural network specifically designed for processing grid-like data, such as images, using convolutional layers to automatically and adaptively learn spatial hierarchies of features.
 
-**FNN (Feedforward Neural Network):**
+**FNN (Feedforward Neural Network):** A basic neural network architecture where information travels in one direction, from the input layer through hidden layers to the output layer, without forming cycles.
 
-**RNN (Recurrent Neural Network):**
-Type of artificial neural network which uses sequential data or time series data. 
-Commonly used for ordinal or temporal problems: language translation, NLP, speech recognition, image captioning.
-Used by Siri, voice search, and Google Translate.
+**RNN (Recurrent Neural Network):** A type of neural network designed for sequence tasks, where connections between nodes form directed cycles, allowing information persistence and handling sequential dependencies
 
-**NLP (Natural Language Processing):**
+**NLP (Natural Language Processing):** A field of artificial intelligence that focuses on the interaction between computers and human language, enabling machines to understand, interpret, and generate human-like text.
 
-**LSTM (Long Short-Term Memory):**
+**LSTM (Long Short-Term Memory):** A type of recurrent neural network architecture designed to capture and remember long-term dependencies in sequential data, mitigating the vanishing gradient problem often encountered in standard RNNs.
 </p>
   <br>
 </details>
