@@ -18,7 +18,8 @@ Before diving into the projects, you'll find a comprehensive list of abbreviatio
   <h2 align="center"> Definitions </h2>
   
   <summary> Definitions </summary> 
-<p>    
+<p>
+  
 **DL (Deep-Learning):** A subset of machine learning that involves training artificial neural networks on vast amounts of data to make intelligent decisions without explicit programming.
 
 **DNN (Deep Neural Networks):** A class of neural networks with multiple layers (deep architecture) between the input and output layers, enabling the model to learn complex hierarchical representations.
