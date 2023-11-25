@@ -47,29 +47,11 @@ This repository is a testament to my exploration and experimentation within the 
 
 <br>
 
-
-The desire to explore the Deep-Learning world has emerged while whatchin Alexander Amini's 6.S191 MIT course. I then deepen my understanding by following Josh Stamer's courses.
-The Deep Learning coding journey with TensorFlow has been introduced by Aladdin Persson's courses and lead me to be Certified Tensorflow Developer by Google.
-Hence, I want to start by thanking these three persons' engagment in delivering exellent and free ressources to everyone.
-
-In this depositry you will ba able to find my main projects using TensorfFlow for a Deep-Learning application and a second part with the exploration of specifics custom technics from TensoFlow.
-In every projects I searched to learn new methods and use of TensorFlow and the Deep-Learning, face new prblems in order to strenghen my skills and problem solving capacities.
-
-First you will be able to find the definitions of every shortned words. Then every projects with a short explaination of the goals and methods used. Last, the Specifics Custom Technics from TensoFlow with an explaination of the importance of each.
-
-With the right libraries, every code cande be forked and directly run. If you have any question/remarque do not hesitate to send a LinkedIn message or Email.
-
-Happy reading!
-
-
+<h3 align="center">Deep-Learning Applications</h3>
+<br>
+Each project is accompanied by a brief overview, outlining the goals and methodologies employed. I approached these projects with the intent to learn new techniques, push the boundaries of TensorFlow, to strengthen my skills.
 
   <br>
-
-  ---
-
-<h2 align='center'>Explaination of the different projects</h2>
-  
-<br>
   
 <details>
   <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
@@ -221,29 +203,7 @@ The goal of the code is to implement a Q-learning algorithm to train an agent in
 </details>
 
 
-<br>
 
-<details>
-  <h2 align="center"> Specifics Custom Technics from TensoFlow </h2>
-  
-  <summary> Specifics Custom Technics from TensoFlow </summary> 
-
-  <p>
-    Custom Callbacks MNIST
-The code employs three callbacks during the training process. The ModelCheckpoint Callback saves model weights at specified intervals, the LearningRateScheduler Callback dynamically adjusts the learning rate, and the CustomCallback Callback stops training if the accuracy surpasses a predefined threshold of 90%. These callbacks enhance training control and efficiency, ensuring periodic weight saving, adaptive learning rates, and the ability to halt training based on a specific criterion.
-
-  Custom Layers ResNet
-The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResNet-like model for MNIST digit classification. They enhance expressiveness by incorporating convolutional blocks and facilitating the creation of residual blocks, enabling efficient feature learning and mitigating challenges in training deep neural networks.
-
-  Custom Model Fit MNIST
-The custom model fit in this code provides a specialized training loop for a convolutional neural network (CNN) on the MNIST dataset. It allows fine-grained control over training and evaluation, incorporating specific metrics like sparse categorical accuracy and utilizing an Adam optimizer with sparse categorical cross-entropy loss. This customization enhances adaptability and transparency in the training process.
-
-  Custom Training Loop MNIST
-The custom training loop in the code offers greater flexibility and control over the training process compared to the standard model.fit() method. It allows explicit definition of operations such as model updates, loss calculations, and metric tracking, providing transparency and adaptability during training.
-
-  </p>
-  <br>
-</details>
 
 
 <br>
@@ -323,4 +283,21 @@ This project aims to develop a binary image classification model using a pre-tra
   </p>
   <br>
 </details>
+
+<h2 align="center"> Specifics Custom Technics from TensoFlow </h2>
+
+<br>
+
+<p href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Callbacks-MNIST.py">**Custom Callbacks MNIST**</p>
+The code employs three callbacks during the training process. The ModelCheckpoint Callback saves model weights at specified intervals, the LearningRateScheduler Callback dynamically adjusts the learning rate, and the CustomCallback Callback stops training if the accuracy surpasses a predefined threshold of 90%. These callbacks enhance training control and efficiency, ensuring periodic weight saving, adaptive learning rates, and the ability to halt training based on a specific criterion.
+<br>
+  Custom Layers ResNet
+The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResNet-like model for MNIST digit classification. They enhance expressiveness by incorporating convolutional blocks and facilitating the creation of residual blocks, enabling efficient feature learning and mitigating challenges in training deep neural networks.
+<br>
+  Custom Model Fit MNIST
+The custom model fit in this code provides a specialized training loop for a convolutional neural network (CNN) on the MNIST dataset. It allows fine-grained control over training and evaluation, incorporating specific metrics like sparse categorical accuracy and utilizing an Adam optimizer with sparse categorical cross-entropy loss. This customization enhances adaptability and transparency in the training process.
+<br>
+  Custom Training Loop MNIST
+The custom training loop in the code offers greater flexibility and control over the training process compared to the standard model.fit() method. It allows explicit definition of operations such as model updates, loss calculations, and metric tracking, providing transparency and adaptability during training.
+<br>
 
