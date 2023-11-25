@@ -1,5 +1,19 @@
-Motivation & Goals:
+<h1 align="center">Deep Learning Exploration with TensorFlow</h1>
+<br>
+Welcome to my repository dedicated to delving into the captivating realm of Deep Learning using TensorFlow!
 
+<br><br>
+
+<h2 align="center">Journey Highlights</h2>
+My initiation into the world of Deep Learning started with the enlightening 6.S191 MIT course by Alexander Amini. Building on this foundation, I expanded my knowledge by following the instructive courses curated by Josh Stamer. The hands-on experience in the practical application of Deep Learning with TensorFlow was facilitated by Aladdin Persson's tutorials, culminating in being certified TensorFlow Developer by Google.
+I express my gratitude to these educators for providing excellent and free resources to the community.
+
+<br>
+
+---
+
+Before diving into the projects, you'll find a comprehensive list of abbreviations and terms to help you navigate the content smoothly.
+<br>
 <details>
   <h2 align="center"> Definitions </h2>
   
@@ -21,10 +35,33 @@ Used by Siri, voice search, and Google Translate.
 **NLP (Natural Language Processing):**
 
 **LSTM (Long Short-Term Memory):**
-
 </p>
   <br>
 </details>
+
+<br>
+
+<h2 align="center">Repository Overview</h2>
+<br>
+This repository is a testament to my exploration and experimentation within the domain of Deep Learning. It is divided into two primary sections:
+
+<br>
+
+
+The desire to explore the Deep-Learning world has emerged while whatchin Alexander Amini's 6.S191 MIT course. I then deepen my understanding by following Josh Stamer's courses.
+The Deep Learning coding journey with TensorFlow has been introduced by Aladdin Persson's courses and lead me to be Certified Tensorflow Developer by Google.
+Hence, I want to start by thanking these three persons' engagment in delivering exellent and free ressources to everyone.
+
+In this depositry you will ba able to find my main projects using TensorfFlow for a Deep-Learning application and a second part with the exploration of specifics custom technics from TensoFlow.
+In every projects I searched to learn new methods and use of TensorFlow and the Deep-Learning, face new prblems in order to strenghen my skills and problem solving capacities.
+
+First you will be able to find the definitions of every shortned words. Then every projects with a short explaination of the goals and methods used. Last, the Specifics Custom Technics from TensoFlow with an explaination of the importance of each.
+
+With the right libraries, every code cande be forked and directly run. If you have any question/remarque do not hesitate to send a LinkedIn message or Email.
+
+Happy reading!
+
+
 
   <br>
 
