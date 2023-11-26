@@ -50,7 +50,6 @@ This repository is a testament to my exploration and experimentation within the 
 Each project is accompanied by a brief overview, outlining the goals and methodologies employed. I approached these projects with the intent to learn new techniques, push the boundaries of TensorFlow, to strengthen my skills.
 
 <br>
-<br>
 
 <details>
   <h2 align="center"> 🎭 LSTM NLP RNN Shakespeare Play Generator & User interaction 🎭 </h2>
@@ -193,18 +192,55 @@ This code demonstrates the use of data augmentation to artificially increase the
 <h2 align="center"> 💫 Specifics Custom Technics from TensoFlow 💫 </h2>
 
 <br>
+<details>
+  <h2 align="center"> Custom Callbacks MNIST </h2>
+  
+  <summary href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Callbacks-MNIST.py"> Custom Callbacks MNIST </summary> 
 
-<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Callbacks-MNIST.py"> Custom Callbacks MNIST: <br></a>
-<a>The code employs three callbacks during the training process. The ModelCheckpoint Callback saves model weights at specified intervals, the LearningRateScheduler Callback dynamically adjusts the learning rate, and the CustomCallback Callback stops training if the accuracy surpasses a predefined threshold of 90%. These callbacks enhance training control and efficiency, ensuring periodic weight saving, adaptive learning rates, and the ability to halt training based on a specific criterion.</a>
+  <p>
+The code employs three callbacks during the training process. The ModelCheckpoint Callback saves model weights at specified intervals, the LearningRateScheduler Callback dynamically adjusts the learning rate, and the CustomCallback Callback stops training if the accuracy surpasses a predefined threshold of 90%. These callbacks enhance training control and efficiency, ensuring periodic weight saving, adaptive learning rates, and the ability to halt training based on a specific criterion.
+  </p>
+  <br>
+</details>
+
 <br>
-<br>
-<a href="">  Custom Layers ResNet</a>
+
+<details>
+  <h2 align="center"> Custom Layers ResNet </h2>
+  
+  <summary href="">Custom Layers ResNet </summary> 
+
+  <p>
 The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResNet-like model for MNIST digit classification. They enhance expressiveness by incorporating convolutional blocks and facilitating the creation of residual blocks, enabling efficient feature learning and mitigating challenges in training deep neural networks.
+  </p>
+  <br>
+</details>
+
 <br>
-  Custom Model Fit MNIST
-The custom model fit in this code provides a specialized training loop for a convolutional neural network (CNN) on the MNIST dataset. It allows fine-grained control over training and evaluation, incorporating specific metrics like sparse categorical accuracy and utilizing an Adam optimizer with sparse categorical cross-entropy loss. This customization enhances adaptability and transparency in the training process.
-<br>
-  Custom Training Loop MNIST
+
+<details>
+  <h2 align="center"> Custom Training Loop MNIST </h2>
+  
+  <summary href="">Custom Training Loop MNIST </summary> 
+
+  <p>
 The custom training loop in the code offers greater flexibility and control over the training process compared to the standard model.fit() method. It allows explicit definition of operations such as model updates, loss calculations, and metric tracking, providing transparency and adaptability during training.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> Custom Model Fit MNIST </h2>
+  
+  <summary href="">Custom Model Fit MNIST </summary> 
+
+  <p>
+The custom model fit in this code provides a specialized training loop for a convolutional neural network (CNN) on the MNIST dataset. It allows fine-grained control over training and evaluation, incorporating specific metrics like sparse categorical accuracy and utilizing an Adam optimizer with sparse categorical cross-entropy loss. This customization enhances adaptability and transparency in the training process.
+  </p>
+  <br>
+</details>
+
 <br>
 
