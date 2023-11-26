@@ -1,5 +1,7 @@
 <h1 align="center">Deep Learning Exploration with TensorFlow</h1>
+
 <br>
+
 Welcome to my repository dedicated to delving into the captivating realm of Deep Learning using TensorFlow!
 
 <br>
@@ -13,7 +15,9 @@ I express my gratitude to these educators for providing excellent and free resou
 ---
 
 Before diving into the projects, you'll find a comprehensive list of abbreviations and terms
+
 <br>
+
 <details>
   <h2 align="center"> 📚 Definitions 📚 </h2>
   
@@ -46,7 +50,9 @@ This repository is a testament to my exploration and experimentation within the 
 <br>
 
 <h3 align="center">Deep-Learning Applications</h3>
+
 <br>
+
 Each project is accompanied by a brief overview, outlining the goals and methodologies employed. I approached these projects with the intent to learn new techniques, push the boundaries of TensorFlow, to strengthen my skills.
 
 <br>
