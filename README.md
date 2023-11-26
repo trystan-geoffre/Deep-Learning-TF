@@ -57,29 +57,11 @@ Each project is accompanied by a brief overview, outlining the goals and methodo
   <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
 
   <p>
-    This Python script focuses on creating and training a Convolutional Neural Network (CNN) to classify images into two classes ("damage" and "no_damage") using the "satellite-images-of-hurricane-damage" dataset. Here's a breakdown of the script:
+This Python script employs a Convolutional Neural Network (CNN) to classify post-hurricane satellite images into "damage" and "no_damage" categories. 
+    
+It utilizes the "satellite-images-of-hurricane-damage" dataset, sourced from Texas after Hurricane Harvey. The script includes functions for dataset handling, image normalization, and model creation using TensorFlow. The model is trained for 30 epochs, achieving a validation accuracy of +0.92, and is saved as "mymodel.h5" for future use. 
 
-About the Dataset:
-The dataset is sourced from Texas after Hurricane Harvey, containing satellite images categorized into "damage" and "no_damage" groups.
-Original Source: IEEE DataPort - Detecting Damaged Buildings Post-Hurricane.
-Libraries:
-The script begins by importing necessary libraries, including urllib for handling URLs and zipfile for extracting compressed files.
-TensorFlow is imported as tf.
-Functions:
-download_and_extract_data(): Downloads and extracts the dataset from a specified URL, storing it in the current directory.
-preprocess(image, label): Normalizes the images by scaling pixel values between 0 and 1.
-Solution Model Function (solution_model()):
-Calls download_and_extract_data() to prepare the dataset.
-Defines constants for image size (IMG_SIZE) and batch size (BATCH_SIZE).
-Loads training and validation datasets from the "train/" and "validation/" directories, respectively. It resizes the images and forms batches using TensorFlow's image_dataset_from_directory function.
-Normalizes the datasets using the preprocess function.
-Constructs a CNN model using TensorFlow's Sequential API with convolutional and pooling layers, flattening layer, and dense layers. The final layer uses the sigmoid activation function for binary classification.
-Compiles and trains the model using the Adam optimizer and binary cross-entropy loss for 30 epochs.
-Running and Saving the Model (if __name__ == '__main__':):
-Calls solution_model() to create and train the model.
-Saves the trained model as "mymodel.h5".
-Overall, the script demonstrates the process of preparing a dataset, creating a CNN model, training the model, and saving it for future use. The goal is to classify satellite images into "damage" and "no_damage" categories.
-validation of +0.92
+The overall goal is to demonstrate the process of preparing a dataset, constructing a CNN model, training, and saving it.
 </p>
 <br>
 </details>
@@ -95,7 +77,7 @@ This Python script constructs and trains a sarcasm classifier using TensorFlow a
     
 The process involves importing essential libraries (json, tensorflow, numpy, and relevant modules from tensorflow.keras), loading and preprocessing the sarcasm dataset, tokenizing and padding text data, building a sequential model with layers for word embeddings, dropout, global average pooling, and dense classification. Early stopping is implemented with a patience of 5 epochs to monitor validation loss. The model is compiled using Adam optimizer and binary cross-entropy loss, trained for 50 epochs with validation data, and the trained model is saved as "mymodel.h5". The script is designed to be executed as the main program, invoking the solution_model function for model creation and saving. 
 
-This script aims to create a straightforward text classification model for sarcasm detection, incorporating neural network elements and measures to enhance its effectiveness. The accuracy on the validation dataset is +0.95
+This script aims to create a straightforward text classification model for sarcasm detection, incorporating neural network elements and measures to enhance its effectiveness. The accuracy on the validation dataset is +0.95.
   </p>
   <br>
 </details>
@@ -136,7 +118,11 @@ In summary, this code defines, trains, evaluates, and uses a Deep Neural Network
   <summary> FNN MNIST Prediction & User interaction </summary> 
 
   <p>
-The goal of the code is to train a neural network using TensorFlow/Keras to classify images from the Fashion MNIST dataset. The dataset consists of grayscale images of 10 different types of clothing items. After training the model, the code provides user interaction to select a specific image from the test set, predict its class, and display the image along with the expected and predicted labels.
+This script utilizes TensorFlow and Keras to implement a Feedforward Neural Network for classifying Fashion MNIST images into 10 different categories. 
+    
+The dataset is loaded, preprocessed by scaling pixel values, and then used to build a sequential custom model with one input layer, one hidden layer with 128 neurons and ReLU activation, and one output layer with softmax activation. The model is compiled with the Adam optimizer and sparse categorical crossentropy loss. Additionally, the code defines functions for predicting and displaying the results of the model on a chosen image from the test set.
+
+The primary goal is to showcase the process of building, training, and interacting with a neural network for image classification. The chosen dataset, Fashion MNIST, consists of grayscale clothing images, and the script demonstrates the model's predictions on a user-selected test image.
   </p>
   <br>
 </details>
@@ -149,7 +135,9 @@ The goal of the code is to train a neural network using TensorFlow/Keras to clas
   <summary> LSTM NLP RNN Shakespeare Play Generator & User interaction </summary> 
 
   <p>
-The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. The trained model is designed to learn the patterns and structures inherent in the language of Shakespeare. Subsequently, the model can generate new text based on a user-provided starting string. This demonstrates the use of recurrent neural networks for creative text generation, showcasing the network's ability to capture and reproduce the linguistic style of a specific author or domain. The code engages users by allowing them to input a seed string and witness the model's generation of coherent and contextually relevant text in the style of Shakespeare.
+The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. 
+    
+The trained model is designed to learn the patterns and structures inherent in the language of Shakespeare. Subsequently, the model can generate new text based on a user-provided starting string. This demonstrates the use of recurrent neural networks for creative text generation, showcasing the network's ability to capture and reproduce the linguistic style of a specific author or domain. The code engages users by allowing them to input a seed string and witness the model's generation of coherent and contextually relevant text in the style of Shakespeare.
   </p>
   <br>
 </details>
@@ -162,8 +150,7 @@ The purpose of this code is to train a character-level LSTM neural network on a 
   <summary> Pre-Trained Model Cat VS Dog Classifier </summary> 
 
   <p>
-    The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task.
-accuracy of +0.986 on validation data
+    The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task. It deliver an accuracy of +0.98 on validation dataset.
   </p>
   <br>
 </details>
@@ -177,7 +164,9 @@ accuracy of +0.986 on validation data
   <summary> Reinforcement Learning: Q Learning </summary> 
 
   <p>
-The goal of the code is to implement a Q-learning algorithm to train an agent in the FrozenLake environment, a classic problem in reinforcement learning. The code initializes a Q-table to store the learned values for state-action pairs and iteratively updates these values based on the agent's interactions with the environment. The training process involves a balance between exploration and exploitation, where the agent chooses actions with a certain probability of exploration. The Q-values are updated using the Q-learning formula, taking into account the rewards received and the maximum Q-value for the next state. The training loop runs for a specified number of episodes, and the final learned Q-values are printed along with the average reward obtained during training. The ultimate objective is for the agent to learn an optimal policy for navigating the FrozenLake environment and achieving the highest cumulative reward.
+The goal of the code is to implement a Q-learning algorithm to train an agent in the FrozenLake environment, a classic problem in reinforcement learning.
+    
+The code initializes a Q-table to store the learned values for state-action pairs and iteratively updates these values based on the agent's interactions with the environment. The training process involves a balance between exploration and exploitation, where the agent chooses actions with a certain probability of exploration. The Q-values are updated using the Q-learning formula, taking into account the rewards received and the maximum Q-value for the next state. The training loop runs for a specified number of episodes, and the final learned Q-values are printed along with the average reward obtained during training. The ultimate objective is for the agent to learn an optimal policy for navigating the FrozenLake environment and achieving the highest cumulative reward.
   </p>
   <br>
 </details>
@@ -194,7 +183,9 @@ The goal of the code is to implement a Q-learning algorithm to train an agent in
   <summary> Tranfer-Learning Skin Cancer </summary> 
 
   <p>
-This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. The goal is to achieve high accuracy in distinguishing between two classes in a dataset of images. The approach involves implementing data augmentation techniques for improved model generalization and training. The model is evaluated on both validation and test datasets, with performance metrics such as accuracy, precision, recall, and the ROC curve used to assess its effectiveness. The use of transfer learning with a powerful pre-trained neural network enables efficient feature extraction and classification for image recognition tasks. The project leverages TensorFlow and related libraries for seamless model development, training, and evaluation.
+This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. 
+    
+The goal is to achieve high accuracy in distinguishing between two classes in a dataset of images. The approach involves implementing data augmentation techniques for improved model generalization and training. The model is evaluated on both validation and test datasets, with performance metrics such as accuracy, precision, recall, and the ROC curve used to assess its effectiveness. The use of transfer learning with a powerful pre-trained neural network enables efficient feature extraction and classification for image recognition tasks. The project leverages TensorFlow and related libraries for seamless model development, training, and evaluation.
   </p>
   <br>
 </details>
