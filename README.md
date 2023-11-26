@@ -52,23 +52,6 @@ Each project is accompanied by a brief overview, outlining the goals and methodo
   <br>
   
 <details>
-  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
-  
-  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
-
-  <p>
-This Python script employs a Convolutional Neural Network (CNN) to classify post-hurricane satellite images into "damage" and "no_damage" categories. 
-    
-It utilizes the "satellite-images-of-hurricane-damage" dataset, sourced from Texas after Hurricane Harvey. The script includes functions for dataset handling, image normalization, and model creation using TensorFlow. The model is trained for 30 epochs, achieving a validation accuracy of +0.92, and is saved as "mymodel.h5" for future use. 
-
-The overall goal is to demonstrate the process of preparing a dataset, constructing a CNN model, training, and saving it.
-</p>
-<br>
-</details>
-
-<br>
-
-<details>
   <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator & User interaction </h2>
   
   <summary> LSTM NLP RNN Shakespeare Play Generator & User interaction </summary> 
@@ -160,9 +143,26 @@ This code demonstrates the use of data augmentation to artificially increase the
 <br>
 
 <details>
-  <h2 align="center"> Tranfer-Learning Skin Cancer </h2>
+  <h2 align="center">🌪️ CNN Hurrican Classifier 🌪️</h2>
   
-  <summary> Tranfer-Learning Skin Cancer </summary> 
+  <summary>🌪️ CNN Hurrican Classifier 🌪️ </summary> 
+
+  <p>
+This Python script employs a Convolutional Neural Network (CNN) to classify post-hurricane satellite images into "damage" and "no_damage" categories. 
+    
+It utilizes the "satellite-images-of-hurricane-damage" dataset, sourced from Texas after Hurricane Harvey. The script includes functions for dataset handling, image normalization, and model creation using TensorFlow. The model is trained for 30 epochs, achieving a validation accuracy of +0.92, and is saved as "mymodel.h5" for future use. 
+
+The overall goal is to demonstrate the process of preparing a dataset, constructing a CNN model, training, and saving it.
+</p>
+<br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> Tranfer-Learning Skin Cancer Classifier </h2>
+  
+  <summary> Tranfer-Learning Skin Cancer Clasifier </summary> 
 
   <p>
 This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. 
