@@ -176,9 +176,9 @@ The goal is to achieve high accuracy in distinguishing between two classes in a 
 <br>
 
 <details>
-  <h2 align="center"> 🐶 Pre-Trained Model Cat VS Dog Classifier 🐱 </h2>
+  <h2 align="center">🐱 Pre-Trained Model Cat VS Dog Classifier 🐶 </h2>
   
-  <summary> 🐶 Pre-Trained Model Cat VS Dog Classifier 🐱 </summary> 
+  <summary> 🐱 Pre-Trained Model Cat VS Dog Classifier 🐶 </summary> 
 
   <p>
     The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task. It deliver an accuracy of +0.98 on validation dataset.
