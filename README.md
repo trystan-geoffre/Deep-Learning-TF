@@ -4,7 +4,7 @@ Welcome to my repository dedicated to delving into the captivating realm of Deep
 
 <br>
 
-<h2 align="center">Journey Highlights</h2>
+<h2 align="center">🌅 Journey Highlights 🌅</h2>
 My initiation into the world of Deep Learning started with the enlightening 6.S191 MIT course by Alexander Amini. Building on this foundation, I expanded my knowledge by following the instructive courses curated by Josh Stamer. The hands-on experience in the practical application of Deep Learning with TensorFlow was facilitated by Aladdin Persson's tutorials, culminating in being certified TensorFlow Developer by Google.
 I express my gratitude to these educators for providing excellent and free resources to the community.
 
@@ -15,9 +15,9 @@ I express my gratitude to these educators for providing excellent and free resou
 Before diving into the projects, you'll find a comprehensive list of abbreviations and terms
 <br>
 <details>
-  <h2 align="center"> Definitions </h2>
+  <h2 align="center"> 📚Definitions📚 </h2>
   
-  <summary> Definitions </summary> 
+  <summary> 📚Definitions📚</summary> 
 <p>
   
 **DL (Deep-Learning):** A subset of machine learning that involves training artificial neural networks on vast amounts of data to make intelligent decisions without explicit programming.
@@ -53,9 +53,9 @@ Each project is accompanied by a brief overview, outlining the goals and methodo
 <br>
 
 <details>
-  <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator & User interaction </h2>
+  <h2 align="center"> 🎭LSTM NLP RNN Shakespeare Play Generator & User interaction🎭 </h2>
   
-  <summary> LSTM NLP RNN Shakespeare Play Generator & User interaction </summary> 
+  <summary> 🎭LSTM NLP RNN Shakespeare Play Generator & User interaction🎭 </summary> 
 
   <p>
 The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. 
@@ -84,9 +84,9 @@ This script aims to create a straightforward text classification model for sarca
 <br>
 
 <details>
-  <h2 align="center"> DNN Iris flower Prediction & User Interaction</h2>
+  <h2 align="center"> 🪻DNN Iris flower Prediction & User Interaction 🪻</h2>
   
-  <summary> DNN Iris flower Prediction & User Interaction </summary> 
+  <summary> 🪻DNN Iris flower Prediction & User Interaction 🪻 </summary> 
 
   <p>
 Use the trained classifier to make predictions based on the user's input and print the predicted class and its probability.
@@ -99,9 +99,9 @@ In summary, this code defines, trains, evaluates, and uses a Deep Neural Network
 <br>
 
 <details>
-  <h2 align="center"> FNN MNIST Prediction & User interaction </h2>
+  <h2 align="center">9️⃣ FNN MNIST Prediction & User interaction 9️⃣</h2>
   
-  <summary> FNN MNIST Prediction & User interaction </summary> 
+  <summary> 9️⃣ FNN MNIST Prediction & User interaction 9️⃣ </summary> 
 
   <p>
 This script utilizes TensorFlow and Keras to implement a Feedforward Neural Network for classifying Fashion MNIST images into 10 different categories. 
@@ -116,27 +116,14 @@ The primary goal is to showcase the process of building, training, and interacti
 <br>
 
 <details>
-  <h2 align="center"> Reinforcement Learning: Q Learning </h2>
+  <h2 align="center"> 🔁 Reinforcement Learning: Q Learning 🔁</h2>
   
-  <summary> Reinforcement Learning: Q Learning </summary> 
+  <summary> 🔁 Reinforcement Learning: Q Learning 🔁 </summary> 
 
   <p>
 The goal of the code is to implement a Q-learning algorithm to train an agent in the FrozenLake environment, a classic problem in reinforcement learning.
     
 The code initializes a Q-table to store the learned values for state-action pairs and iteratively updates these values based on the agent's interactions with the environment. The training process involves a balance between exploration and exploitation, where the agent chooses actions with a certain probability of exploration. The Q-values are updated using the Q-learning formula, taking into account the rewards received and the maximum Q-value for the next state. The training loop runs for a specified number of episodes, and the final learned Q-values are printed along with the average reward obtained during training. The ultimate objective is for the agent to learn an optimal policy for navigating the FrozenLake environment and achieving the highest cumulative reward.
-  </p>
-  <br>
-</details>
-
-<br>
-
-<details>
-  <h2 align="center"> CNN Cifar10 </h2>
-  
-  <summary> CNN Cifar10 </summary> 
-
-  <p>
-This code demonstrates the use of data augmentation to artificially increase the diversity of the training dataset, enhancing the model's ability to generalize to unseen data. The CNN model is designed to classify images from the CIFAR-10 dataset into one of the ten specified classes. The training process involves both the original and augmented images.
   </p>
   <br>
 </details>
@@ -161,9 +148,9 @@ The overall goal is to demonstrate the process of preparing a dataset, construct
 <br>
 
 <details>
-  <h2 align="center"> Tranfer-Learning Skin Cancer Classifier </h2>
+  <h2 align="center"> 🦠Tranfer-Learning Skin Cancer Classifier🦠 </h2>
   
-  <summary> Tranfer-Learning Skin Cancer Clasifier </summary> 
+  <summary> 🦠Tranfer-Learning Skin Cancer Classifier🦠 </summary> 
 
   <p>
 This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. 
@@ -176,9 +163,9 @@ The goal is to achieve high accuracy in distinguishing between two classes in a 
 <br>
 
 <details>
-  <h2 align="center"> Pre-Trained Model Cat VS Dog Classifier </h2>
+  <h2 align="center"> 🐶Pre-Trained Model Cat VS Dog Classifier🐱 </h2>
   
-  <summary> Pre-Trained Model Cat VS Dog Classifier </summary> 
+  <summary> 🐶Pre-Trained Model Cat VS Dog Classifier🐱 </summary> 
 
   <p>
     The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task. It deliver an accuracy of +0.98 on validation dataset.
@@ -189,18 +176,21 @@ The goal is to achieve high accuracy in distinguishing between two classes in a 
 <br>
 
 <details>
-  <h2 align="center">  </h2>
+  <h2 align="center"> 🦆CNN Cifar10🐴 </h2>
   
-  <summary> </summary> 
+  <summary> 🦆CNN Cifar10🐴 </summary> 
 
   <p>
-
+This code demonstrates the use of data augmentation to artificially increase the diversity of the training dataset, enhancing the model's ability to generalize to unseen data. The CNN model is designed to classify images from the CIFAR-10 dataset into one of the ten specified classes. The training process involves both the original and augmented images.
   </p>
   <br>
-  
 </details>
 
-<h2 align="center"> Specifics Custom Technics from TensoFlow </h2>
+<br>
+
+---
+
+<h2 align="center"> 💫Specifics Custom Technics from TensoFlow💫 </h2>
 
 <br>
 
