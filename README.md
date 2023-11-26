@@ -208,10 +208,12 @@ The code employs three callbacks during the training process. The ModelCheckpoin
 <details>
   <h2 align="center"> Custom Layers ResNet </h2>
   
-  <summary href="">Custom Layers ResNet </summary> 
+  <summary >Custom Layers ResNet </summary> 
 
   <p>
 The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResNet-like model for MNIST digit classification. They enhance expressiveness by incorporating convolutional blocks and facilitating the creation of residual blocks, enabling efficient feature learning and mitigating challenges in training deep neural networks.
+
+<a href=""> Code Link</a>
   </p>
   <br>
 </details>
@@ -221,7 +223,7 @@ The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResN
 <details>
   <h2 align="center"> Custom Training Loop MNIST </h2>
   
-  <summary href="">Custom Training Loop MNIST </summary> 
+  <summary>Custom Training Loop MNIST </summary> 
 
   <p>
 The custom training loop in the code offers greater flexibility and control over the training process compared to the standard model.fit() method. It allows explicit definition of operations such as model updates, loss calculations, and metric tracking, providing transparency and adaptability during training.
@@ -234,7 +236,7 @@ The custom training loop in the code offers greater flexibility and control over
 <details>
   <h2 align="center"> Custom Model Fit MNIST </h2>
   
-  <summary href="">Custom Model Fit MNIST </summary> 
+  <summary>Custom Model Fit MNIST </summary> 
 
   <p>
 The custom model fit in this code provides a specialized training loop for a convolutional neural network (CNN) on the MNIST dataset. It allows fine-grained control over training and evaluation, incorporating specific metrics like sparse categorical accuracy and utilizing an Adam optimizer with sparse categorical cross-entropy loss. This customization enhances adaptability and transparency in the training process.
