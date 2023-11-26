@@ -12,7 +12,7 @@ I express my gratitude to these educators for providing excellent and free resou
 
 ---
 
-Before diving into the projects, you'll find a comprehensive list of abbreviations and terms to help you navigate the content smoothly.
+Before diving into the projects, you'll find a comprehensive list of abbreviations and terms
 <br>
 <details>
   <h2 align="center"> Definitions </h2>
@@ -91,29 +91,11 @@ validation of +0.92
   
   <summary>👹 NLP Sarcasm Classifier 👹</summary> 
   <p>
-    This Python script builds and trains a classifier for a sarcasm dataset using TensorFlow and Keras. Here's an explanation of each part:
+This Python script constructs and trains a sarcasm classifier using TensorFlow and Keras. 
+    
+The process involves importing essential libraries (json, tensorflow, numpy, and relevant modules from tensorflow.keras), loading and preprocessing the sarcasm dataset, tokenizing and padding text data, building a sequential model with layers for word embeddings, dropout, global average pooling, and dense classification. Early stopping is implemented with a patience of 5 epochs to monitor validation loss. The model is compiled using Adam optimizer and binary cross-entropy loss, trained for 50 epochs with validation data, and the trained model is saved as "mymodel.h5". The script is designed to be executed as the main program, invoking the solution_model function for model creation and saving. 
 
-Import Libraries:
-Import necessary libraries including json for working with JSON files, tensorflow for building and training the model, numpy for numerical operations, and relevant modules from tensorflow.keras for text preprocessing.
-Load and Preprocess Data:
-Download the sarcasm dataset from a given URL and load it from the JSON file (sarcasm.json).
-Extract sentences and labels from the dataset.
-Tokenization and Padding:
-Tokenize the text data and pad sequences to ensure uniform length for model input.
-Model Architecture:
-Build a sequential model using Keras.
-The model consists of an embedding layer for word embeddings, a dropout layer to prevent overfitting, a global average pooling layer for dimensionality reduction, and a dense layer with a sigmoid activation function for binary classification.
-Early Stopping:
-Implement early stopping with a patience of 5 epochs to monitor validation loss and restore the best weights when there is no improvement.
-Compile and Train:
-Compile the model using the Adam optimizer and binary cross-entropy loss.
-Train the model on the training data with validation data for 50 epochs, using the early stopping callback to prevent overfitting.
-Save the Model:
-Save the trained model to a file named "mymodel.h5".
-Main Execution:
-Check if the script is being run as the main program (__name__ == '__main__').
-If yes, execute the solution_model function and save the resulting model.
-This script aims to create a simple text classification model for sarcasm detection using a neural network architecture with embedding layers, dropout for regularization, and early stopping to prevent overfitting.
+This script aims to create a straightforward text classification model for sarcasm detection, incorporating neural network elements and measures to enhance its effectiveness. The accuracy on the validation dataset is +0.95
   </p>
   <br>
 </details>
@@ -228,58 +210,7 @@ This project aims to develop a binary image classification model using a pre-tra
 
   </p>
   <br>
-</details>
-
-<br>
-
-<details>
-  <h2 align="center">  </h2>
   
-  <summary> </summary> 
-
-  <p>
-
-  </p>
-  <br>
-</details>
-
-<br>
-
-<details>
-  <h2 align="center">  </h2>
-  
-  <summary> </summary> 
-
-  <p>
-
-  </p>
-  <br>
-</details>
-
-<br>
-
-<details>
-  <h2 align="center">  </h2>
-  
-  <summary> </summary> 
-
-  <p>
-
-  </p>
-  <br>
-</details>
-
-<br>
-
-<details>
-  <h2 align="center">  </h2>
-  
-  <summary> </summary> 
-
-  <p>
-
-  </p>
-  <br>
 </details>
 
 <h2 align="center"> Specifics Custom Technics from TensoFlow </h2>
