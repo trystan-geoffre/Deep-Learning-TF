@@ -43,7 +43,7 @@ Before diving into the projects, you'll find a comprehensive list of abbreviatio
 <br>
 This repository is a testament to my exploration and experimentation within the domain of Deep Learning. It is divided into two primary sections:
 
-<br>
+<br><br>
 
 <h3 align="center">Deep-Learning Applications</h3>
 <br>
