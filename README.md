@@ -15,9 +15,9 @@ I express my gratitude to these educators for providing excellent and free resou
 Before diving into the projects, you'll find a comprehensive list of abbreviations and terms
 <br>
 <details>
-  <h2 align="center"> 📚Definitions📚 </h2>
+  <h2 align="center"> 📚 Definitions 📚 </h2>
   
-  <summary> 📚Definitions📚</summary> 
+  <summary> 📚 Definitions 📚</summary> 
 <p>
   
 **DL (Deep-Learning):** A subset of machine learning that involves training artificial neural networks on vast amounts of data to make intelligent decisions without explicit programming.
@@ -53,9 +53,9 @@ Each project is accompanied by a brief overview, outlining the goals and methodo
 <br>
 
 <details>
-  <h2 align="center"> 🎭LSTM NLP RNN Shakespeare Play Generator & User interaction🎭 </h2>
+  <h2 align="center"> 🎭 LSTM NLP RNN Shakespeare Play Generator & User interaction 🎭 </h2>
   
-  <summary> 🎭LSTM NLP RNN Shakespeare Play Generator & User interaction🎭 </summary> 
+  <summary> 🎭 LSTM NLP RNN Shakespeare Play Generator & User interaction 🎭 </summary> 
 
   <p>
 The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. 
@@ -84,9 +84,9 @@ This script aims to create a straightforward text classification model for sarca
 <br>
 
 <details>
-  <h2 align="center"> 🪻DNN Iris flower Prediction & User Interaction🪻</h2>
+  <h2 align="center"> 🪻 DNN Iris flower Prediction & User Interaction 🪻</h2>
   
-  <summary> 🪻DNN Iris flower Prediction & User Interaction 🪻 </summary> 
+  <summary> 🪻 DNN Iris flower Prediction & User Interaction 🪻 </summary> 
 
   <p>
 Use the trained classifier to make predictions based on the user's input and print the predicted class and its probability.
@@ -148,9 +148,9 @@ The overall goal is to demonstrate the process of preparing a dataset, construct
 <br>
 
 <details>
-  <h2 align="center"> 🦠Tranfer-Learning Skin Cancer Classifier🦠 </h2>
+  <h2 align="center"> 🦠 Tranfer-Learning Skin Cancer Classifier 🦠 </h2>
   
-  <summary> 🦠Tranfer-Learning Skin Cancer Classifier🦠 </summary> 
+  <summary> 🦠 Tranfer-Learning Skin Cancer Classifier 🦠 </summary> 
 
   <p>
 This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. 
@@ -163,9 +163,9 @@ The goal is to achieve high accuracy in distinguishing between two classes in a 
 <br>
 
 <details>
-  <h2 align="center"> 🐶Pre-Trained Model Cat VS Dog Classifier🐱 </h2>
+  <h2 align="center"> 🐶 Pre-Trained Model Cat VS Dog Classifier 🐱 </h2>
   
-  <summary> 🐶Pre-Trained Model Cat VS Dog Classifier🐱 </summary> 
+  <summary> 🐶 Pre-Trained Model Cat VS Dog Classifier 🐱 </summary> 
 
   <p>
     The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task. It deliver an accuracy of +0.98 on validation dataset.
@@ -176,9 +176,9 @@ The goal is to achieve high accuracy in distinguishing between two classes in a 
 <br>
 
 <details>
-  <h2 align="center"> 🦆CNN Cifar10🐴 </h2>
+  <h2 align="center"> 🦆 CNN Cifar-10 🐴 </h2>
   
-  <summary> 🦆CNN Cifar10🐴 </summary> 
+  <summary> 🦆 CNN Cifar-10 🐴 </summary> 
 
   <p>
 This code demonstrates the use of data augmentation to artificially increase the diversity of the training dataset, enhancing the model's ability to generalize to unseen data. The CNN model is designed to classify images from the CIFAR-10 dataset into one of the ten specified classes. The training process involves both the original and augmented images.
@@ -190,7 +190,7 @@ This code demonstrates the use of data augmentation to artificially increase the
 
 ---
 
-<h2 align="center"> 💫Specifics Custom Technics from TensoFlow💫 </h2>
+<h2 align="center"> 💫 Specifics Custom Technics from TensoFlow 💫 </h2>
 
 <br>
 
