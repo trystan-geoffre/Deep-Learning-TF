@@ -60,6 +60,8 @@ Each project is accompanied by a brief overview, outlining the goals and methodo
 The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. 
     
 The trained model is designed to learn the patterns and structures inherent in the language of Shakespeare. Subsequently, the model can generate new text based on a user-provided starting string. This demonstrates the use of recurrent neural networks for creative text generation, showcasing the network's ability to capture and reproduce the linguistic style of a specific author or domain. The code engages users by allowing them to input a seed string and witness the model's generation of coherent and contextually relevant text in the style of Shakespeare.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/LSTM_NLP_RNN-Shakespeare-Play_Generator%26User_interaction.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -76,6 +78,8 @@ This Python script constructs and trains a sarcasm classifier using TensorFlow a
 The process involves importing essential libraries (json, tensorflow, numpy, and relevant modules from tensorflow.keras), loading and preprocessing the sarcasm dataset, tokenizing and padding text data, building a sequential model with layers for word embeddings, dropout, global average pooling, and dense classification. Early stopping is implemented with a patience of 5 epochs to monitor validation loss. The model is compiled using Adam optimizer and binary cross-entropy loss, trained for 50 epochs with validation data, and the trained model is saved as "mymodel.h5". The script is designed to be executed as the main program, invoking the solution_model function for model creation and saving. 
 
 This script aims to create a straightforward text classification model for sarcasm detection, incorporating neural network elements and measures to enhance its effectiveness. The accuracy on the validation dataset is +0.95.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/NLP-Sarcasm-Classifier.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -91,6 +95,8 @@ This script aims to create a straightforward text classification model for sarca
 Use the trained classifier to make predictions based on the user's input and print the predicted class and its probability.
 
 In summary, this code defines, trains, evaluates, and uses a Deep Neural Network classifier to predict the species of an Iris flower based on user-inputted features. The dataset used is the famous Iris dataset containing features such as sepal length, sepal width, petal length, and petal width. The user can interactively input feature values for prediction.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/DNN-Iris_Flower-Prediction%26User_Interaction.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -108,6 +114,8 @@ This script utilizes TensorFlow and Keras to implement a Feedforward Neural Netw
 The dataset is loaded, preprocessed by scaling pixel values, and then used to build a sequential custom model with one input layer, one hidden layer with 128 neurons and ReLU activation, and one output layer with softmax activation. The model is compiled with the Adam optimizer and sparse categorical crossentropy loss. Additionally, the code defines functions for predicting and displaying the results of the model on a chosen image from the test set.
 
 The primary goal is to showcase the process of building, training, and interacting with a neural network for image classification. The chosen dataset, Fashion MNIST, consists of grayscale clothing images, and the script demonstrates the model's predictions on a user-selected test image.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/FNN-MNIST-Prediction%26User_interaction.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -123,6 +131,8 @@ The primary goal is to showcase the process of building, training, and interacti
 The goal of the code is to implement a Q-learning algorithm to train an agent in the FrozenLake environment, a classic problem in reinforcement learning.
     
 The code initializes a Q-table to store the learned values for state-action pairs and iteratively updates these values based on the agent's interactions with the environment. The training process involves a balance between exploration and exploitation, where the agent chooses actions with a certain probability of exploration. The Q-values are updated using the Q-learning formula, taking into account the rewards received and the maximum Q-value for the next state. The training loop runs for a specified number of episodes, and the final learned Q-values are printed along with the average reward obtained during training. The ultimate objective is for the agent to learn an optimal policy for navigating the FrozenLake environment and achieving the highest cumulative reward.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Reinforcement_Learning-Q_Learning.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -140,6 +150,8 @@ This Python script employs a Convolutional Neural Network (CNN) to classify post
 It utilizes the "satellite-images-of-hurricane-damage" dataset, sourced from Texas after Hurricane Harvey. The script includes functions for dataset handling, image normalization, and model creation using TensorFlow. The model is trained for 30 epochs, achieving a validation accuracy of +0.92, and is saved as "mymodel.h5" for future use. 
 
 The overall goal is to demonstrate the process of preparing a dataset, constructing a CNN model, training, and saving it.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/CNN-Hurricane-Classifier.py"> Code Link</a>
 </p>
 <br>
 </details>
@@ -155,6 +167,8 @@ The overall goal is to demonstrate the process of preparing a dataset, construct
 This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. 
     
 The goal is to achieve high accuracy in distinguishing between two classes in a dataset of images. The approach involves implementing data augmentation techniques for improved model generalization and training. The model is evaluated on both validation and test datasets, with performance metrics such as accuracy, precision, recall, and the ROC curve used to assess its effectiveness. The use of transfer learning with a powerful pre-trained neural network enables efficient feature extraction and classification for image recognition tasks. The project leverages TensorFlow and related libraries for seamless model development, training, and evaluation.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Transfer_Learning-Skin_Cancer.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -168,6 +182,8 @@ The goal is to achieve high accuracy in distinguishing between two classes in a 
 
   <p>
     The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task. It deliver an accuracy of +0.98 on validation dataset.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Pre_Trained_Model-Cat_VS_Dog-Classifier.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -181,6 +197,8 @@ The goal is to achieve high accuracy in distinguishing between two classes in a 
 
   <p>
 This code demonstrates the use of data augmentation to artificially increase the diversity of the training dataset, enhancing the model's ability to generalize to unseen data. The CNN model is designed to classify images from the CIFAR-10 dataset into one of the ten specified classes. The training process involves both the original and augmented images.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/CNN-Cifar10.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -195,10 +213,12 @@ This code demonstrates the use of data augmentation to artificially increase the
 <details>
   <h2 align="center"> Custom Callbacks MNIST </h2>
   
-  <summary href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Callbacks-MNIST.py"> Custom Callbacks MNIST </summary> 
+  <summary> Custom Callbacks MNIST </summary> 
 
   <p>
 The code employs three callbacks during the training process. The ModelCheckpoint Callback saves model weights at specified intervals, the LearningRateScheduler Callback dynamically adjusts the learning rate, and the CustomCallback Callback stops training if the accuracy surpasses a predefined threshold of 90%. These callbacks enhance training control and efficiency, ensuring periodic weight saving, adaptive learning rates, and the ability to halt training based on a specific criterion.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Callbacks-MNIST.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -213,7 +233,7 @@ The code employs three callbacks during the training process. The ModelCheckpoin
   <p>
 The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResNet-like model for MNIST digit classification. They enhance expressiveness by incorporating convolutional blocks and facilitating the creation of residual blocks, enabling efficient feature learning and mitigating challenges in training deep neural networks.
 
-<a href=""> Code Link</a>
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Layers-ResNet.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -227,6 +247,8 @@ The custom layers, CNNBlock and ResBlock, play a key role in constructing a ResN
 
   <p>
 The custom training loop in the code offers greater flexibility and control over the training process compared to the standard model.fit() method. It allows explicit definition of operations such as model updates, loss calculations, and metric tracking, providing transparency and adaptability during training.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Training_Loop-MNIST.py"> Code Link</a>
   </p>
   <br>
 </details>
@@ -240,6 +262,8 @@ The custom training loop in the code offers greater flexibility and control over
 
   <p>
 The custom model fit in this code provides a specialized training loop for a convolutional neural network (CNN) on the MNIST dataset. It allows fine-grained control over training and evaluation, incorporating specific metrics like sparse categorical accuracy and utilizing an Adam optimizer with sparse categorical cross-entropy loss. This customization enhances adaptability and transparency in the training process.
+
+<a href="https://github.com/trystan-geoffre/Deep-Learning-TensorFlow/blob/master/Custom_Model_Fit-MNIST.py"> Code Link</a>
   </p>
   <br>
 </details>
