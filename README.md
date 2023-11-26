@@ -69,6 +69,21 @@ The overall goal is to demonstrate the process of preparing a dataset, construct
 <br>
 
 <details>
+  <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator & User interaction </h2>
+  
+  <summary> LSTM NLP RNN Shakespeare Play Generator & User interaction </summary> 
+
+  <p>
+The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. 
+    
+The trained model is designed to learn the patterns and structures inherent in the language of Shakespeare. Subsequently, the model can generate new text based on a user-provided starting string. This demonstrates the use of recurrent neural networks for creative text generation, showcasing the network's ability to capture and reproduce the linguistic style of a specific author or domain. The code engages users by allowing them to input a seed string and witness the model's generation of coherent and contextually relevant text in the style of Shakespeare.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
   <h2 align="center">👹 NLP Sarcasm Classifier 👹</h2>
   
   <summary>👹 NLP Sarcasm Classifier 👹</summary> 
@@ -78,19 +93,6 @@ This Python script constructs and trains a sarcasm classifier using TensorFlow a
 The process involves importing essential libraries (json, tensorflow, numpy, and relevant modules from tensorflow.keras), loading and preprocessing the sarcasm dataset, tokenizing and padding text data, building a sequential model with layers for word embeddings, dropout, global average pooling, and dense classification. Early stopping is implemented with a patience of 5 epochs to monitor validation loss. The model is compiled using Adam optimizer and binary cross-entropy loss, trained for 50 epochs with validation data, and the trained model is saved as "mymodel.h5". The script is designed to be executed as the main program, invoking the solution_model function for model creation and saving. 
 
 This script aims to create a straightforward text classification model for sarcasm detection, incorporating neural network elements and measures to enhance its effectiveness. The accuracy on the validation dataset is +0.95.
-  </p>
-  <br>
-</details>
-
-<br>
-
-<details>
-  <h2 align="center"> CNN Cifar10 </h2>
-  
-  <summary> CNN Cifar10 </summary> 
-
-  <p>
-This code demonstrates the use of data augmentation to artificially increase the diversity of the training dataset, enhancing the model's ability to generalize to unseen data. The CNN model is designed to classify images from the CIFAR-10 dataset into one of the ten specified classes. The training process involves both the original and augmented images.
   </p>
   <br>
 </details>
@@ -130,14 +132,42 @@ The primary goal is to showcase the process of building, training, and interacti
 <br>
 
 <details>
-  <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator & User interaction </h2>
+  <h2 align="center"> Reinforcement Learning: Q Learning </h2>
   
-  <summary> LSTM NLP RNN Shakespeare Play Generator & User interaction </summary> 
+  <summary> Reinforcement Learning: Q Learning </summary> 
 
   <p>
-The purpose of this code is to train a character-level LSTM neural network on a dataset containing Shakespearean text. 
+The goal of the code is to implement a Q-learning algorithm to train an agent in the FrozenLake environment, a classic problem in reinforcement learning.
     
-The trained model is designed to learn the patterns and structures inherent in the language of Shakespeare. Subsequently, the model can generate new text based on a user-provided starting string. This demonstrates the use of recurrent neural networks for creative text generation, showcasing the network's ability to capture and reproduce the linguistic style of a specific author or domain. The code engages users by allowing them to input a seed string and witness the model's generation of coherent and contextually relevant text in the style of Shakespeare.
+The code initializes a Q-table to store the learned values for state-action pairs and iteratively updates these values based on the agent's interactions with the environment. The training process involves a balance between exploration and exploitation, where the agent chooses actions with a certain probability of exploration. The Q-values are updated using the Q-learning formula, taking into account the rewards received and the maximum Q-value for the next state. The training loop runs for a specified number of episodes, and the final learned Q-values are printed along with the average reward obtained during training. The ultimate objective is for the agent to learn an optimal policy for navigating the FrozenLake environment and achieving the highest cumulative reward.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> CNN Cifar10 </h2>
+  
+  <summary> CNN Cifar10 </summary> 
+
+  <p>
+This code demonstrates the use of data augmentation to artificially increase the diversity of the training dataset, enhancing the model's ability to generalize to unseen data. The CNN model is designed to classify images from the CIFAR-10 dataset into one of the ten specified classes. The training process involves both the original and augmented images.
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> Tranfer-Learning Skin Cancer </h2>
+  
+  <summary> Tranfer-Learning Skin Cancer </summary> 
+
+  <p>
+This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. 
+    
+The goal is to achieve high accuracy in distinguishing between two classes in a dataset of images. The approach involves implementing data augmentation techniques for improved model generalization and training. The model is evaluated on both validation and test datasets, with performance metrics such as accuracy, precision, recall, and the ROC curve used to assess its effectiveness. The use of transfer learning with a powerful pre-trained neural network enables efficient feature extraction and classification for image recognition tasks. The project leverages TensorFlow and related libraries for seamless model development, training, and evaluation.
   </p>
   <br>
 </details>
@@ -151,41 +181,6 @@ The trained model is designed to learn the patterns and structures inherent in t
 
   <p>
     The code loads the "cats_vs_dogs" dataset, preprocesses the images, and fine-tunes the MobileNetV2 model for a binary classification task (cats vs. dogs). It trains the model, evaluates its performance, and saves the trained model for later use. The primary goal is to demonstrate the process of using a pre-trained neural network for image classification and adapting it to a specific task. It deliver an accuracy of +0.98 on validation dataset.
-  </p>
-  <br>
-</details>
-
-
-<br>
-
-<details>
-  <h2 align="center"> Reinforcement Learning: Q Learning </h2>
-  
-  <summary> Reinforcement Learning: Q Learning </summary> 
-
-  <p>
-The goal of the code is to implement a Q-learning algorithm to train an agent in the FrozenLake environment, a classic problem in reinforcement learning.
-    
-The code initializes a Q-table to store the learned values for state-action pairs and iteratively updates these values based on the agent's interactions with the environment. The training process involves a balance between exploration and exploitation, where the agent chooses actions with a certain probability of exploration. The Q-values are updated using the Q-learning formula, taking into account the rewards received and the maximum Q-value for the next state. The training loop runs for a specified number of episodes, and the final learned Q-values are printed along with the average reward obtained during training. The ultimate objective is for the agent to learn an optimal policy for navigating the FrozenLake environment and achieving the highest cumulative reward.
-  </p>
-  <br>
-</details>
-
-
-
-
-
-<br>
-
-<details>
-  <h2 align="center"> Tranfer-Learning Skin Cancer </h2>
-  
-  <summary> Tranfer-Learning Skin Cancer </summary> 
-
-  <p>
-This project aims to develop a binary image classification model using a pre-trained EfficientNet from TensorFlow Hub. 
-    
-The goal is to achieve high accuracy in distinguishing between two classes in a dataset of images. The approach involves implementing data augmentation techniques for improved model generalization and training. The model is evaluated on both validation and test datasets, with performance metrics such as accuracy, precision, recall, and the ROC curve used to assess its effectiveness. The use of transfer learning with a powerful pre-trained neural network enables efficient feature extraction and classification for image recognition tasks. The project leverages TensorFlow and related libraries for seamless model development, training, and evaluation.
   </p>
   <br>
 </details>
