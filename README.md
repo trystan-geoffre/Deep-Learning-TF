@@ -50,7 +50,8 @@ This repository is a testament to my exploration and experimentation within the 
 Each project is accompanied by a brief overview, outlining the goals and methodologies employed. I approached these projects with the intent to learn new techniques, push the boundaries of TensorFlow, to strengthen my skills.
 
 <br>
-  
+<br>
+
 <details>
   <h2 align="center"> LSTM NLP RNN Shakespeare Play Generator & User interaction </h2>
   
