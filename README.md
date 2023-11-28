@@ -7,7 +7,7 @@ Welcome to my repository dedicated to delving into the captivating realm of Deep
 <br>
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
-After exploring Machine Learning <a href="">(Link to the projects)</a> I wanted to discover more. My initiation into the world of Deep Learning started with the enlightening 6.S191 MIT course by Alexander Amini. Building on this foundation, I expanded my knowledge by following the instructive courses curated by Josh Stamer. The hands-on experience in the practical application of Deep Learning with TensorFlow was facilitated by Aladdin Persson's tutorials, culminating in being certified <a href="https://www.credential.net/356c31f7-1049-4070-883f-655f4df87023#gs.1i4s80">TensorFlow Developer by Google</a>.
+After exploring Machine Learning <a href="https://github.com/trystan-geoffre/Machine-Learning">(Link to the projects)</a> I wanted to discover more. My initiation into the world of Deep Learning started with the enlightening 6.S191 MIT course by Alexander Amini. Building on this foundation, I expanded my knowledge by following the instructive courses curated by Josh Stamer. The hands-on experience in the practical application of Deep Learning with TensorFlow was facilitated by Aladdin Persson's tutorials, culminating in being certified <a href="https://www.credential.net/356c31f7-1049-4070-883f-655f4df87023#gs.1i4s80">TensorFlow Developer by Google</a>.
 I express my gratitude to these educators for providing excellent and free resources to the community.
 
 <br>
