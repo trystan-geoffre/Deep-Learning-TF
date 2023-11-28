@@ -276,4 +276,4 @@ The custom model fit in this code provides a specialized training loop for a con
 
 <br>
 
-This marks the conclusion of the repository on teh Deep Learning Exploration with TensorFlow. For those interested in exploring another complex project with the use of TensorFlow, I would invite you to visit the repository <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/tree/master"> Trading AI using TensorFlow</a> to witness the application of Deep Learning in stock prediction.
+This marks the conclusion of the repository on the Deep Learning Exploration with TensorFlow! For those interested in exploring another complex project with the use of TensorFlow, I would invite you to visit the repository <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/tree/master"> Trading AI using TensorFlow</a> to witness the application of Deep Learning in stock prediction.
