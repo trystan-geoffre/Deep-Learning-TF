@@ -2,7 +2,7 @@
 
 <br>
 
-Welcome to my repository dedicated to delving into the captivating realm of Deep Learning using TensorFlow!
+Welcome to my repository dedicated to the captivating realm of Deep Learning using TensorFlow!
 
 <br>
 
