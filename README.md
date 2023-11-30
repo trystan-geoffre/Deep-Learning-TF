@@ -37,6 +37,8 @@ Before diving into the projects, you'll find a comprehensive list of abbreviatio
 **NLP (Natural Language Processing):** A field of artificial intelligence that focuses on the interaction between computers and human language, enabling machines to understand, interpret, and generate human-like text.
 
 **LSTM (Long Short-Term Memory):** A type of recurrent neural network architecture designed to capture and remember long-term dependencies in sequential data, mitigating the vanishing gradient problem often encountered in standard RNNs.
+
+**RL (Reinforcement Learning):** Training models to make sequences of decisions by interacting with an environment.
 </p>
   <br>
 </details>
