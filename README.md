@@ -55,7 +55,7 @@ This repository is a testament to my exploration and experimentation within the 
 
 <br>
 
-Each project is accompanied by a brief overview, outlining the goals and methodologies employed. I approached these projects with the intent to learn new techniques, push the boundaries of TensorFlow, to strengthen my skills.
+Each project is accompanied by a brief overview, outlining the goals and methodologies employed. I approached these projects with the intent to learn new techniques and push the boundaries of TensorFlow, to strengthen my skills.
 
 <br>
 
